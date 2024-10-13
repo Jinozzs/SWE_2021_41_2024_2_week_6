@@ -35,4 +35,23 @@ def isHappy(n):
 > docker exec <container_name> cat /etc/os-release
 > ```
 > Docker 컨테이너에서 /etc/os-release 파일의 내용을 출력
+> → 컨테이너의 운영체제에 대한 정보(이름, 버전 등)를 표시
 
+> ```
+> docker exec <container_name> git --version
+> ```
+> Docker 컨테이너에서 git 버전을 확인
+> → git version 2.43.0
+
+> ```
+> docker exec <container_name> python3 --version
+> ```
+> Docker 컨테이너에서 python3의 버전을 확인
+> → Python 3.12.3
+
+> ```
+> docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
+> ```
+> 특정 Docker 컨테이너의 볼륨 바인딩 정보를 확인
+> 컨테이너가 호스트 시스템과 어떤 디렉토리를 공유하고 있는지 보여줌
+> → [/home/sy2018314609/ossp_host_dir:/mnt/ossp_container_dir]
