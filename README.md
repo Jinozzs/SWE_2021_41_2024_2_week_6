@@ -4,7 +4,7 @@
 
 ## Week 4 Assignment
 
-* [Go to the Repository](https://github.com/Jinozzs/SWE_2021_41_2024_2_week_4.git)
+[Go to the Repository](https://github.com/Jinozzs/SWE_2021_41_2024_2_week_4.git)
 
 ```python
 def isHappy(n):
@@ -31,6 +31,9 @@ def isHappy(n):
 
 ## Week 5 Assignmnet
 
->
+```
+docker exec <container_name> cat /etc/os-release
+```
 
+Docker 컨테이너에서 /etc/os-release 파일의 내용을 출력
 
