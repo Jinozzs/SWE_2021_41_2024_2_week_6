@@ -31,10 +31,9 @@ def isHappy(n):
 
 ## Week 5 Assignmnet
 
->
+###### 
 ```
 docker exec <container_name> cat /etc/os-release
 ```
-
 Docker 컨테이너에서 /etc/os-release 파일의 내용을 출력
 
